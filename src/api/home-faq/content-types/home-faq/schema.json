@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_faqs",
+  "info": {
+    "singularName": "home-faq",
+    "pluralName": "home-faqs",
+    "displayName": "Home-FAQ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

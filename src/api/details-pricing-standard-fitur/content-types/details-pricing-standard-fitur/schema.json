@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "details_pricing_standard_fiturs",
+  "info": {
+    "singularName": "details-pricing-standard-fitur",
+    "pluralName": "details-pricing-standard-fiturs",
+    "displayName": "Details-Pricing-Standard-Fitur",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

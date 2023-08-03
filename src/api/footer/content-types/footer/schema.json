@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tautan_Penting": {
+      "type": "string"
+    },
+    "feature": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    }
+  }
+}

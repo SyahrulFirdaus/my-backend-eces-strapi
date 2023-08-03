@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "features_akuntansis",
+  "info": {
+    "singularName": "features-akuntansi",
+    "pluralName": "features-akuntansis",
+    "displayName": "Features-Akuntansi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

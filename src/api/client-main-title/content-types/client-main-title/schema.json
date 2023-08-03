@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_main_titles",
+  "info": {
+    "singularName": "client-main-title",
+    "pluralName": "client-main-titles",
+    "displayName": "Client-Main-Title"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_ctas",
+  "info": {
+    "singularName": "home-cta",
+    "pluralName": "home-ctas",
+    "displayName": "Home-CTA",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "title_trial": {
+      "type": "string"
+    },
+    "body_trial": {
+      "type": "text"
+    },
+    "title_hubungi_kami": {
+      "type": "string"
+    },
+    "body_hubungi_kami": {
+      "type": "text"
+    },
+    "link_whatsapp": {
+      "type": "richtext"
+    },
+    "button_hubungi_kami": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "main_title"
+    }
+  }
+}

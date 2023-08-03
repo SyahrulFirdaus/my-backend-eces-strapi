@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_client_images",
+  "info": {
+    "singularName": "home-client-image",
+    "pluralName": "home-client-images",
+    "displayName": "home-client-image",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "thumbnail_client": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

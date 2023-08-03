@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "features_manajemes",
+  "info": {
+    "singularName": "features-manajeme",
+    "pluralName": "features-manajemes",
+    "displayName": "Features-Manajemen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "list": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_jumbotrons",
+  "info": {
+    "singularName": "about-jumbotron",
+    "pluralName": "about-jumbotrons",
+    "displayName": "About-jumbotron"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    }
+  }
+}

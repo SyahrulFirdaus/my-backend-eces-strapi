@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "details_pricing_lite_requirements",
+  "info": {
+    "singularName": "details-pricing-lite-requirement",
+    "pluralName": "details-pricing-lite-requirements",
+    "displayName": "Details-Pricing-Lite-Requirement"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Fitur": {
+      "type": "string"
+    },
+    "Perijinan_Legalitas": {
+      "type": "string"
+    },
+    "Marketing": {
+      "type": "string"
+    },
+    "Keuangan": {
+      "type": "string"
+    },
+    "Akuntansi": {
+      "type": "string"
+    },
+    "Manajemen": {
+      "type": "string"
+    }
+  }
+}

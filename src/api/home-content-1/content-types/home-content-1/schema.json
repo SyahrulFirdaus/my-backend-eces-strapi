@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_content_1s",
+  "info": {
+    "singularName": "home-content-1",
+    "pluralName": "home-content-1s",
+    "displayName": "Home-Content-1"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

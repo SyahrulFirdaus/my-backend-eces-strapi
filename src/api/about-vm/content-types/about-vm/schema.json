@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_vms",
+  "info": {
+    "singularName": "about-vm",
+    "pluralName": "about-vms",
+    "displayName": "About-VM"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title_vision": {
+      "type": "string"
+    },
+    "body_vision": {
+      "type": "text"
+    },
+    "title_mission": {
+      "type": "string"
+    },
+    "body_mission": {
+      "type": "text"
+    }
+  }
+}

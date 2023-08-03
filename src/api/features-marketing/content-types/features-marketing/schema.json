@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "features_marketings",
+  "info": {
+    "singularName": "features-marketing",
+    "pluralName": "features-marketings",
+    "displayName": "Features-Marketing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "list": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

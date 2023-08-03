@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "features_proyek_legals",
+  "info": {
+    "singularName": "features-proyek-legal",
+    "pluralName": "features-proyek-legals",
+    "displayName": "Features-ProyekLegal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "list": {
+      "type": "string"
+    }
+  }
+}

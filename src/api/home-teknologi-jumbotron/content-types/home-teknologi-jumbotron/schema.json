@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_teknologi_jumbotrons",
+  "info": {
+    "singularName": "home-teknologi-jumbotron",
+    "pluralName": "home-teknologi-jumbotrons",
+    "displayName": "Home-Teknologi-Jumbotron"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

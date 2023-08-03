@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_content_2s",
+  "info": {
+    "singularName": "home-content-2",
+    "pluralName": "home-content-2s",
+    "displayName": "Home-Content-2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "marketing": {
+      "type": "string"
+    },
+    "body_marketing": {
+      "type": "richtext"
+    },
+    "finance": {
+      "type": "string"
+    },
+    "body_finance": {
+      "type": "richtext"
+    },
+    "pembangunan": {
+      "type": "string"
+    },
+    "body_pembangunan": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

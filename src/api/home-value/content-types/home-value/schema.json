@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_values",
+  "info": {
+    "singularName": "home-value",
+    "pluralName": "home-values",
+    "displayName": "home-value"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tanpa_porta_pro": {
+      "type": "text"
+    },
+    "dengan_porta_pro": {
+      "type": "text"
+    }
+  }
+}

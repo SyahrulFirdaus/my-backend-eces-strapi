@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_clients",
+  "info": {
+    "singularName": "home-client",
+    "pluralName": "home-clients",
+    "displayName": "home-client",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "body_main_title": {
+      "type": "text"
+    }
+  }
+}

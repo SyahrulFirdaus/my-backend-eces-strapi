@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_clients_images",
+  "info": {
+    "singularName": "client-clients-image",
+    "pluralName": "client-clients-images",
+    "displayName": "Client-clients-image",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "thumbnail_clients": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
